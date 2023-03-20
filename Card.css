@@ -90,7 +90,14 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: background .1s ease;
 }
+
+button:hover {
+    background-color: #1a4031;
+}
+
 button img{
     margin-right: .7rem;
 }
